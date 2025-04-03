@@ -1,0 +1,31 @@
+header{
+    background-color: aliceblue;
+}
+
+.adotar{
+    color: #f97316;
+}
+
+.navv{
+    cursor: pointer;
+}
+
+body{
+    background-color: #CED4DA;
+}
+
+.estadoss{
+    cursor: pointer;
+}
+footer{
+    background-color: #1F2937;
+    color:  rgb(241, 243, 245);
+}
+
+button{
+    background-color: #f97316;
+    cursor: pointer;
+}
+input{
+    cursor: pointer;
+}

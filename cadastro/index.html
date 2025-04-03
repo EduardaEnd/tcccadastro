@@ -9,8 +9,8 @@
 <body>
     <header>
         <button>Seja colaborador</button>
-        <ul>
-            <li>Adotar</li>
+        <ul class="navv">
+            <li class="adotar">Adotar</li>
             <li>Suporte</li>
             <li>Blog</li>
             <li>Institucional</li>
@@ -29,7 +29,7 @@
         <input type="text" id="icpf" placeholder="000.000.000-00">
 
         <label for="inascimento">Nascimento</label>
-        <input type="text" id="inascimento" placeholder="DD/MM/AAAA" autocomplete="da">
+        <input type="date" id="inascimento" placeholder="DD/MM/AAAA" autocomplete="da">
 
         <label for="itell">Telefone</label>
         <input type="tel" id="itell" placeholder="(19) 99999-9999">
@@ -54,8 +54,9 @@
         <input type="text" id="icomplemento" placeholder="1234">
 <!--estado-->
         <form action=""></form>
-        <section class="estados">
-            <select name="estados" id="estados">
+        <section>
+            <select name="estados" id="estados" class="estadoss">
+                <option value="incio">Selecione o Estado</option>
                 <option value="">Rio de Janeiro</option>
                 <option value="">São Paulo</option>
                 <option value="">Minas Gerais</option>
@@ -78,6 +79,14 @@
 <!--bairro-->
         <label for="ibairro">Bairro</label>
         <input type="text" id="ibairro" placeholder="Seu Bairro">
+
+        <button onclick="alert('Cadastro realizado com sucesso')">Prosseguir</button>
     </div>
 </body>
+
+<footer>
+    <h3 class="pc">PataCerta</h3>
+    <p class="paragrafo_footer">&copy PataCerta.
+         Todos os direitos reservados</p>
+</footer>
 </html>
