@@ -10,8 +10,10 @@ header{
     cursor: pointer;
 }
 
+
 body{
     background-color: #CED4DA;
+    margin: 0;
 }
 
 .estadoss{
@@ -25,7 +27,21 @@ footer{
 button{
     background-color: #f97316;
     cursor: pointer;
+    border: none;
+    border-radius: 5px;
 }
 input{
     cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    padding: 0.6px;
+    border: 1.5px solid #1F2937;
+    border-radius: 5px;
+
+}
+
+.conteiner{
+    display: flex;
+    background-color: aliceblue;
+    
 }
