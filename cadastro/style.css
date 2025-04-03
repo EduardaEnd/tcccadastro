@@ -1,19 +1,35 @@
+*{margin: 0}
+
 header{
+    height: 100px;
     background-color: aliceblue;
 }
 
-.adotar{
+.adotar{ 
     color: #f97316;
-}
+} /* botao seja colaborador */
 
-.navv{
+nav ul li{
+    display: inline;
+    float: right;
+    margin: 10px;
     cursor: pointer;
 }
 
+nav ul li a{
+    text-decoration: none;
+}
 
 body{
     background-color: #CED4DA;
     margin: 0;
+}
+h1{
+    text-align: center;
+}
+
+.parafragopinc{
+    text-align: center;
 }
 
 .estadoss{
@@ -22,6 +38,10 @@ body{
 footer{
     background-color: #1F2937;
     color:  rgb(241, 243, 245);
+    height: 6em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 button{
@@ -29,6 +49,9 @@ button{
     cursor: pointer;
     border: none;
     border-radius: 5px;
+    width: 95%;
+    height: 35px;
+    margin: auto;
 }
 input{
     cursor: pointer;
@@ -37,11 +60,23 @@ input{
     padding: 0.6px;
     border: 1.5px solid #1F2937;
     border-radius: 5px;
+    margin: 8px;
 
 }
 
-.conteiner{
-    display: flex;
+.Conteiner{
     background-color: aliceblue;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+.patacerta{
+    text-align: left;
+    margin: 40px;
+}
+
+.endinfor{
+    margin: 20px 0px;
     
 }

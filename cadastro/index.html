@@ -8,85 +8,103 @@
 </head>
 <body>
     <header>
-        <button>Seja colaborador</button>
-        <ul class="navv">
-            <li class="adotar">Adotar</li>
-            <li>Suporte</li>
-            <li>Blog</li>
-            <li>Institucional</li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="adotar.html"><button>Seja colaborador</button></a></li>
+                <li class="adotar"><a href="">Adotar</a></li>
+                <li><a href="">Suporte</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Institucional</a></li>
+            </ul>
+        </nav>
     </header>
-    <div class="Conteiner">
-        <h1>Criar Conta</h1>
-        <p>Junte-se à comunidade PataCerta e encontre seu novo melhor amigo </p>
-
-        <h3>Informações Pessoais</h3>
-
-       <label for="inome">Nome Completo</label>
-        <input type="text" id="inome" placeholder="Digite seu nome Completo" autocomplete="name">
-
-        <label for="icpf">CPF</label>
-        <input type="text" id="icpf" placeholder="000.000.000-00">
-
-        <label for="inascimento">Nascimento</label>
-        <input type="date" id="inascimento" placeholder="DD/MM/AAAA" autocomplete="da">
-
-        <label for="itell">Telefone</label>
-        <input type="tel" id="itell" placeholder="(19) 99999-9999">
-
-        <label for="iemail"> E-mail</label>
-        <input type="email" id="iemail" placeholder="seu@gmail.com">
-
-
-        <h3>Endereço</h3>
+    <main>
+        <div class="Conteiner">
+            <div>
+                <h1>Criar Conta</h1>
+                <p class="parafragopinc">Junte-se à comunidade PataCerta e encontre seu novo melhor amigo </p>
+            </div>
         
-<!--cep-->
-        <label for="icep">CEP</label>
-        <input type="text" id="icep" placeholder="00000-000">
-<!--rua-->
-        <label for="irua">Rua</label>
-        <input type="text" id="irua" placeholder="Av. Dr Jorge">
-<!--numero-->
-        <label for="irua">Número</label>
-        <input type="number" id="irua" placeholder="1234">
-<!--complemento-->
-        <label for="icomplemento">Complemento</label>
-        <input type="text" id="icomplemento" placeholder="1234">
-<!--estado-->
-        <form action=""></form>
-        <section>
-            <select name="estados" id="estados" class="estadoss">
-                <option value="incio">Selecione o Estado</option>
-                <option value="">Rio de Janeiro</option>
-                <option value="">São Paulo</option>
-                <option value="">Minas Gerais</option>
-                <option value="">Mato Grosso</option>
-                <option value="">Pará</option>
-                <option value="">Amazonas</option>
-                <option value="">Bahia</option>
-                <option value="">Paraná</option>
-                <option value="">Rio Grande do Sul</option>
-                <option value="">Pernambuco</option>
-                <option value="">Goiás</option>
-                <option value="">Maranhão</option>
-            </select>
-        </section>
+            <div>
+                <h3 class="endinfor">Informações Pessoais</h3>
+                <p>
+                    <label for="inome">Nome Completo</label>
+                    <input type="text" id="inome" placeholder="Digite seu nome Completo" autocomplete="name">
+
+                    <label for="icpf">CPF</label>
+                    <input type="text" id="icpf" placeholder="000.000.000-00">
+                </p>
+                <p>
+                    <label for="inascimento">Nascimento</label>
+                    <input type="date" id="inascimento" placeholder="DD/MM/AAAA" autocomplete="da">
+
+                    <label for="itell">Telefone</label>
+                    <input type="tel" id="itell" placeholder="(19) 99999-9999">
+                </p>
+                <label for="iemail"> E-mail</label>
+                <input type="email" id="iemail" placeholder="seu@gmail.com">
+            </div>
+
+            <div>
+                <h3 class="endinfor">Endereço</h3>
+                <p>
+                    
+                <!--cep-->
+                    <label for="icep">CEP</label>
+                    <input type="text" id="icep" placeholder="00000-000">
+                <!--rua-->
+                    <label for="irua">Rua</label>
+                    <input type="text" id="irua" placeholder="Av. Dr Jorge">
+                </p>
+                <p>
+                    
+                            <!--numero-->
+                    <label for="irua">Número</label>
+                    <input type="number" id="irua" placeholder="1234">
+                            <!--complemento-->
+                    <label for="icomplemento">Complemento</label>
+                    <input type="text" id="icomplemento" placeholder="1234">
+                            <!--estado-->
+                    <form action=""></form>
+        
+                    <label for="iestados">Estados</label>
+                    <select name="estados" id="iestados" class="estadoss">
+                        <option value="incio">Selecione o Estado</option>
+                        <option value="">Rio de Janeiro</option>
+                        <option value="">São Paulo</option>
+                        <option value="">Minas Gerais</option>
+                        <option value="">Mato Grosso</option>
+                        <option value="">Pará</option>
+                        <option value="">Amazonas</option>
+                        <option value="">Bahia</option>
+                        <option value="">Paraná</option>
+                        <option value="">Rio Grande do Sul</option>
+                        <option value="">Pernambuco</option>
+                        <option value="">Goiás</option>
+                        <option value="">Maranhão</option>
+                        </select>
+
+                </p>
 
 
-<!--cidade-->
-        <label for="icidade">Cidade</label>
-        <input type="text" id="icidade" placeholder="Sua Cidade">
-<!--bairro-->
-        <label for="ibairro">Bairro</label>
-        <input type="text" id="ibairro" placeholder="Seu Bairro">
+        <!--cidade-->
+                <label for="icidade">Cidade</label>
+                <input type="text" id="icidade" placeholder="Sua Cidade">
+        <!--bairro-->
+                <label for="ibairro">Bairro</label>
+                <input type="text" id="ibairro" placeholder="Seu Bairro">
+            </div>
+            <div>
+                <button onclick="alert('Cadastro realizado com sucesso')">Prosseguir</button>
+            </div>
 
-        <button onclick="alert('Cadastro realizado com sucesso')">Prosseguir</button>
-    </div>
+        </div>
+    </main>
 </body>
 
 <footer>
-    <h3><strong>PataCerta</strong></h3>
-    <p class="paragrafo_footer">&copy PataCerta.
-         Todos os direitos reservados</p>
+    <h3 class="patacerta"><strong>PataCerta</strong></h3>
+
+    
 </footer>
 </html>
