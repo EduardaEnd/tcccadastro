@@ -23,6 +23,36 @@ nav ul li a{
     text-decoration: none;
     color: #1F2937;
 }
+li{
+    display: inline-block;
+    position: relative;
+    color: #1F2937;
+    cursor: pointer;
+    transition: 0.45s all ease;
+}
+
+li:hover{
+    color: #f97316;
+    transition: 0.45s all ease ;
+}
+
+li::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: antiquewhite;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+
+li:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
 
 body{
     background-color: #CED4DA;
