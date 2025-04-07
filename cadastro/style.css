@@ -44,7 +44,8 @@ li::after{
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: antiquewhite;
+    background-color: #f97316;
+    ;
     transform-origin: bottom right;
     transition: transform 0.5s ease-out;
 }
