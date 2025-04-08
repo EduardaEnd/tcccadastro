@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Icone-Logo.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -29,17 +30,17 @@
                 <h3 class="endinfor">Informações Pessoais</h3>
                 <p>
                     <label for="inome">Nome Completo</label>
-                    <input type="text" id="inome" placeholder="Digite seu nome Completo" autocomplete="name">
+                    <input type="text" id="inome" placeholder="Digite seu nome Completo" autocomplete="name" class="inputigual">
 
                     <label for="icpf">CPF</label>
-                    <input type="text" id="icpf" placeholder="000.000.000-00">
+                    <input type="text" id="icpf" placeholder="000.000.000-00" class="inputigual">
                 </p>
                 <p>
                     <label for="inascimento">Nascimento</label>
-                    <input type="date" id="inascimento" placeholder="DD/MM/AAAA" autocomplete="da">
+                    <input type="date" id="inascimento" placeholder="DD/MM/AAAA" autocomplete="da" class="inputigual">
 
                     <label for="itell">Telefone</label>
-                    <input type="tel" id="itell" placeholder="(19) 99999-9999">
+                    <input type="tel" id="itell" placeholder="(19) 99999-9999" class="inputigual">
                 </p>
                 <label for="iemail"> E-mail</label>
                 <input type="email" id="iemail" placeholder="seu@gmail.com">
@@ -60,15 +61,15 @@
                     
                             <!--numero-->
                     <label for="irua">Número</label>
-                    <input type="number" id="irua" placeholder="1234">
+                    <input type="number" id="irua" placeholder="1234" class="numecomp">
                             <!--complemento-->
                     <label for="icomplemento">Complemento</label>
-                    <input type="text" id="icomplemento" placeholder="1234">
+                    <input type="text" id="icomplemento" placeholder="1234" class="numecomp">
                             <!--estado-->
                     <form action=""></form>
         
                     <label for="iestados">Estados</label>
-                    <select name="estados" id="iestados" class="estadoss">
+                    <select name="estados" id="iestados">
                         <option value="incio">Selecione o Estado</option>
                         <option value="">Rio de Janeiro</option>
                         <option value="">São Paulo</option>
@@ -89,17 +90,18 @@
 
         <!--cidade-->
                 <label for="icidade">Cidade</label>
-                <input type="text" id="icidade" placeholder="Sua Cidade">
+                <input type="text" id="icidade" placeholder="Sua Cidade" class="cidadeebairro">
         <!--bairro-->
                 <label for="ibairro">Bairro</label>
-                <input type="text" id="ibairro" placeholder="Seu Bairro">
+                <input type="text" id="ibairro" placeholder="Seu Bairro" class="cidadeebairro">
             </div>
             <div>
                 <button onclick="alert('Cadastro realizado com sucesso')">Prosseguir</button>
             </div>
-
-        </div>
+          
     </main>
+    
+
 </body>
 
 <footer>
