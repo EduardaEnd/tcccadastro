@@ -16,6 +16,7 @@ nav ul li{
     display: inline;
     float: right;
     margin: 10px;
+    margin-top: 3%;
     cursor: pointer;
 
 }
@@ -139,9 +140,10 @@ input{
     margin-top: 8%;
     border-radius: 20px;
     padding: 20px;
+    margin-bottom: 10%;
 }
 .patacerta{
-    text-align: left;
+    text-align: center;
     padding: 40px;
     
 }
