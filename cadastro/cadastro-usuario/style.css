@@ -25,6 +25,9 @@ nav ul li a{
     text-decoration: none;
     color: #1F2937;
 }
+a:active{
+    color: #f97316;
+}
 li{
     display: inline-block;
     position: relative;
@@ -60,8 +63,10 @@ li:hover::after{
 body{
     background-color: #CED4DA;
     margin: 0;
+    padding: 0;
     font-family: poppins;
     color: #18202b;
+    
 }
 h1{
     text-align: center;
@@ -83,15 +88,7 @@ h1{
     margin: 8px;
     height: 35px;
 }
-footer{
-    background-color: #1F2937;
-    color:  rgb(241, 243, 245);
-    height: 6em;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 
-}
 
 button{
     background-color: #f97316;
@@ -153,3 +150,12 @@ input{
     
 }
 
+footer{
+    background-color: #1F2937;
+    color:  rgb(241, 243, 245);
+    height: 6em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
